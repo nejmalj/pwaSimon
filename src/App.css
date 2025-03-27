@@ -1,0 +1,91 @@
+* {
+  background-color: floralwhite;
+}
+
+h1 {
+  font-family: "Apple Chancery", cursive;
+  color: #322d2d;
+}
+
+p {
+  font-family: "Georgia", serif;
+  color: #322d2d;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.simonGame {
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simonGame > div:hover {
+  cursor: pointer;
+}
+
+.redColor {
+  background: #ff4646;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 0.3em;
+  margin-right: 0.3em;
+  border-radius: 50% 5% 5% 5%;
+}
+
+.greenColor {
+  background: #53d653;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 0.3em;
+  border-radius: 5% 50% 5% 5%;
+}
+
+.blueColor {
+  background: #4655fb;
+  height: 100px;
+  width: 100px;
+  margin-right: 0.3em;
+  border-radius: 5% 5% 5% 50%;
+}
+
+.yellowColor {
+  background: #f1f13b;
+  height: 100px;
+  width: 100px;
+  border-radius: 5% 5% 50% 5%;
+}
+
+.play, .install-button {
+  background: lightcoral;
+  font-family: Georgia, serif;
+  font-size: medium;
+  font-weight: bold;
+  color: #322d2d;
+  margin: 0.2em;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.play:hover, .install-button:hover {
+  background: #ea5858;
+}
+
+.redColor.active {
+  background: #ff9999;
+}
+.greenColor.active {
+  background: #99ff99;
+}
+.blueColor.active {
+  background: #9999ff;
+}
+.yellowColor.active {
+  background: #ffff99;
+}
